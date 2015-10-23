@@ -10,6 +10,10 @@ markdown: redcarpet
 permalink: pretty
 highlighter: pygments
 
+twitter_username:     b_joe_s
+github_username:      brendanscarano
+linkedin_username:    brendanscarano
+
 sass:
   sass_dir: _sass
   style: compressed
