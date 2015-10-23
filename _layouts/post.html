@@ -1,0 +1,39 @@
+---
+layout: post
+---
+
+{% include header.html %}
+
+
+<div class="sidebar">
+  {% include sidebar.html %}
+</div>
+<div class="main-content">
+
+  <div class="next-blog-arrows">
+    {% if page.previous.url %} 
+      <a class="prev" href="{{page.previous.url}}">&#8592; {{page.previous.title}}</a> 
+    {% endif %}
+
+    {% if page.next.url %} 
+      <a class="next" href="{{page.next.url}}">{{page.next.title}} &#8594;</a> 
+    {% endif %} 
+  </div>
+
+  <div class="blog">
+    <div class="entry">
+      <div class="icon-wrapper">
+        <a ui-sref="blog6"><i class="fa fa-angle-left"></i></a>
+        <a ui-sref="blog4"><i class="fa fa-angle-right"></i></a>
+      </div>
+      <h2><div class="entry-date">{{ page.date | date: "%m-%d-%Y" }}</div></h2>
+      <h2><div class="entry-title">{{ page.title }}</div></h2>
+
+      {{ content }}
+
+    </div>
+
+  </div>
+</div>
+
+{% include footer.html %}

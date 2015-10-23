@@ -1,0 +1,162 @@
+/* ==============================
+  
+          For Phone Resizing
+
+============================== */
+
+.main-content {
+  margin: 0 0 0 340px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  text-align: center;
+  background: #f5f6f5;
+  height: 100%;
+  width: 340px;
+  background-image: url('../assets/footer_lodyas.png');
+
+  h3 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-weight: 500;
+    line-height: 1.0;
+
+  }
+}
+
+.info-wrapper {
+  margin-top: 25%;
+  color: #fff;
+
+  img {
+    border: 1px solid black;
+    border-radius: 1100px;
+    width: 47%;
+    height: 170px;
+  }
+}
+
+
+.profession-list {
+  text-align: center;
+
+  h4 {
+    display: inline-block;
+    color: #fff;
+  }
+}
+
+.navigation-buttons {
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    li {
+      display: inline-block;
+      font-size: 32px;
+      margin: 0 10px;
+      font-size: 18px;
+
+      a {
+        color: #949494;
+        text-decoration: none;
+        &:hover {
+            color: #fff;
+        }
+      }
+
+    }
+
+  }
+}
+
+.contact-me-icons {
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    li {
+      display: inline-block;
+      font-size: 32px;
+      margin: 0 10px;
+    }
+    a {
+      color: #696969;
+    }
+    h5 {
+      text-align: center;
+      margin: 0;
+      color: #ccc;
+      margin-top: 4px;
+    }
+  }
+}
+
+
+.facebook:hover {
+  color: #3B5998;
+}
+
+.twitter:hover {
+  color: #4099FF;
+}
+
+.linkedin:hover {
+  color: #4875B4
+}
+
+.soundcloud:hover {
+  color: #ff7700;
+}
+
+.github:hover {
+ color: #4183c4; 
+}
+
+
+@media only screen 
+    and (max-width : 900px) 
+{
+  body {
+    padding: 0;
+    padding-top: 0;
+  }
+  .container {
+    margin: 0;
+    width: 100%;
+  }
+  .sidebar {
+      position: static;
+      width: 100%;
+      top: 0px;
+      bottom: 0px;
+      left: 0px;
+      text-align: center;
+      background: #f5f6f5;
+      height: 100%;
+      background-image: url('/assets/footer_lodyas.png');
+  }
+  .info-wrapper {
+    margin-top: 0;
+    img {
+      width: 175px;
+      margin-top: 14px;
+    }
+  }
+  .main-content {
+    margin: 0;
+  }
+  .next-blog-arrows {
+    float: none;
+  }
+
+}

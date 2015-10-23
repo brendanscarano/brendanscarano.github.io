@@ -1,0 +1,130 @@
+.next-blog-arrows {
+  float: right;
+  a {
+    color: #999;
+    margin-right: 30px;
+    &:hover {
+      color: #333;
+      text-decoration: none;
+    }
+  }
+}
+
+.blog-entry-selection {
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: .07em;
+  margin-top: 0;
+  font-size: 1.75em;
+  margin-bottom: 40px;
+
+  a {
+    color: #999;
+    &:hover {
+      color: #333;
+      text-decoration: none;
+    }
+  }
+
+  .blog-title {
+    left: 0;
+  }
+  .blog-date {
+    right: 0;
+  }
+}
+
+
+/*Blog
+=======================*/
+
+.blog {
+  h2 {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: .07em;
+    margin-top: 0;
+    font-size: 2.25em;
+  }
+  .entry {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25em;
+    line-height: 1.50em;
+    ul {
+      li {
+        margin: .5em;
+      }
+    }
+
+    .entry-date {
+      font-size: 14px;
+    }
+    img {
+      width: 50%;
+      height: 250px;
+      box-shadow: 5px 5px 5px #888888;
+    }
+
+    p {
+      margin-bottom: 24px;
+      line-height: 32px;
+    }
+
+  } // entry
+} // blog
+
+#concert_spreadsheet img {
+  width: 100%;
+}
+
+.icon-wrapper {
+  width: 40px;
+  float: right;
+}
+.icon-wrapper a {
+  font-size: 24px;
+  color: #777;
+}
+.icon-wrapper .fa-angle-left {
+  margin-right: 7px;
+  font-size: 24px;
+  float: left;
+}
+.icon-wrapper .fa-angle-right {
+  float: right;
+}
+
+/*Selection
+=======================*/
+
+.history {
+  overflow-y: scroll;
+  height: 100%;
+  width: 15%;
+  float: left;
+  
+  margin-top: 5em;
+  margin-bottom: 2.5%;
+  margin-left: -1%;
+
+  position: fixed;
+  border-right: .2em solid black;
+}
+
+.history ol h3 {
+  font-family: 'Lato', sans-serif;
+}
+
+.history ol li {
+  list-style-type: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.85em;
+}
+
+.history ol li:hover {
+  font-weight: bold;
+}
+
+.history a {
+  text-decoration: none;
+  color: black;
+}
