@@ -15,10 +15,10 @@ Projects were chosen on Wednesday May 21st, and what followed the next 8 days wa
 
 And while we shot for the moon with our features I&apos;m proud to say that my team and I finished the majority of what we set out to complete, and now have a finished product anyone can use at <a href="http://www.encoreapp.io/">www.encoreapp.io</a>!
 
-From this...
+From this...<br />
 <img src="/assets/basket/early_stage.jpg" alt="rough_draft">
 
-...to this, in 8 days.
+...to this, in 8 days.<br />
 <img src="/assets/basket/title.jpg" alt="encore_title_screen">
 
 Encore utilizes 5 API&apos;s to allow the entire product to run smoothly. 

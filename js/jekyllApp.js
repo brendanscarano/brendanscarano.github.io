@@ -7,7 +7,7 @@
       {
         type: 'work',
         companyName: 'Priceline.com',
-        companyImg: '../assets/priceline.png',
+        companyImg: '/assets/priceline.png',
         dates: 'Sep 2014 - Present',
         title: 'Mobile Web Engineer',
         description: [
@@ -20,7 +20,7 @@
       {
         type: 'work',
         companyName: 'Dev Bootcamp',
-        companyImg: '../assets/dbc.png',
+        companyImg: '/assets/dbc.png',
         dates: 'Jul 2014 - Sep 2014',
         title: 'Coach',
         description: [
@@ -32,7 +32,7 @@
       {
         type: 'work',
         companyName: 'HUEMOR',
-        companyImg: '../assets/huemor.png',
+        companyImg: '/assets/huemor.png',
         dates: 'Jul 2014 - Sep 2014',
         title: 'Web Development Intern',
         description: [
@@ -43,7 +43,7 @@
       {
         type: 'school',
         companyName: 'Dev Bootcamp',
-        companyImg: '../assets/dbc.png',
+        companyImg: '/assets/dbc.png',
         dates: 'Mar 2014 - May 2014',
         title: 'Student',
         description: [
@@ -56,7 +56,7 @@
       {
         type: 'work',
         companyName: 'Foot Locker',
-        companyImg: '../assets/footlocker.png',
+        companyImg: '/assets/footlocker.png',
         dates: 'Sep 2013 - Mar 2014',
         title: 'Manager of Loyalty/CRM & Research',
         description: [
@@ -69,7 +69,7 @@
       {
         type: 'work',
         companyName: 'The NPD Group',
-        companyImg: '../assets/npd.png',
+        companyImg: '/assets/npd.png',
         dates: 'Jan 2013 - Sep 2013',
         title: 'Account Specialist',
         description: [
@@ -82,7 +82,7 @@
       {
         type: 'work',
         companyName: 'The NPD Group',
-        companyImg: '/../assets/npd.png',
+        companyImg: '//assets/npd.png',
         dates: 'Jun 2011 - Dec 2012',
         title: 'Operations Associate',
         description: [
@@ -95,7 +95,7 @@
       {
         type: 'school',
         companyName: 'University of Delaware',
-        companyImg: '../assets/ud.png',
+        companyImg: '/assets/ud.png',
         dates: 'Aug 2007 - May 2011',
         title: 'Student',
         description: [
