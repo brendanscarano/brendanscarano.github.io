@@ -3,13 +3,17 @@ title: Blog Posts
 layout: default
 ---
 
-{% for post in site.posts limit: 10 %}
+<div class="blog-selection-wrapper">
 
-<div class="blog-entry-selection">
-  <a href="{{ post.url }}">
-    <h4 class="blog-date">{{ post.date | date: "%m-%d-%Y" }}</h4>
-    <h2 class="blog-title">{{ post.title }}</h2>
-  </a>
+  {% for post in site.posts limit: 10 %}
+
+  <div class="blog-entry-selection">
+    <a href="{{ post.url }}">
+      <h4 class="blog-date">{{ post.date | date: "%m-%d-%Y" }}</h4>
+      <h2 class="blog-title">{{ post.title }}</h2>
+    </a>
+  </div>
+
+  {% endfor %}
+
 </div>
-
-{% endfor %}

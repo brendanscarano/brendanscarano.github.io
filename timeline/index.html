@@ -10,9 +10,9 @@ layout: default
 -->
 
 <div ng-app="JekyllApp">
-  <ul class="timeline">
+  <ul class="timeline" ng-controller="TimelineCtrl as vm">
 
-      <li ng-repeat="job in jobs"
+      <li ng-repeat="job in vm.jobs"
           ng-class="{'timeline-inverted': job.type === 'school'}"
           ng-init="showBody = false">
 
@@ -28,15 +28,22 @@ layout: default
 
           <div class="timeline-heading">
 
-            <div class="job-title">{{job.title}}</div>
+            <div class="job-title"></div>
+            <div class="job-title">
+              <span ng-bind="job.title"></span>
+            </div>
 
             <div class="job-img-wrapper">
               <img ng-src="{{job.companyImg}}"/>
             </div>
 
             <div class="title-wrapper">
-              <div class="job-dates">{{job.dates}}</div>
-              <div class="job-companyName">{{job.companyName}}</div>
+              <div class="job-dates">
+                <span ng-bind="job.dates"></span>
+              </div>
+              <div class="job-companyName">
+                  <span ng-bind="job.companyName"></span>
+              </div>
             </div>
 
             <div class="show-more-buttons">
@@ -55,7 +62,7 @@ layout: default
 
             <ul>
               <li ng-repeat="description in job.description">
-                <p>{{description}}</p>
+                <p ng-bind="description"></p>
               </li>
             </ul>
 
