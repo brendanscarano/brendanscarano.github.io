@@ -47,12 +47,14 @@
   text-align: center;
 
   h4 {
+    font-weight: 400;
     display: inline-block;
     color: #fff;
   }
 }
 
 .navigation-buttons {
+  margin: 4px 0;
   ul {
     list-style: none;
     margin: 0;
@@ -79,6 +81,7 @@
 }
 
 .contact-me-icons {
+  margin-top: 10px;
   ul {
     list-style: none;
     margin: 0;
