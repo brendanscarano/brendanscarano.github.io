@@ -1,0 +1,50 @@
+@media only screen 
+    and (max-width : 900px) 
+{
+  body {
+    padding: 0;
+    padding-top: 0;
+  }
+  .container {
+    margin: 0;
+    width: 100%;
+  }
+  .sidebar {
+      position: static;
+      width: 100%;
+      top: 0px;
+      bottom: 0px;
+      left: 0px;
+      text-align: center;
+      background: #f5f6f5;
+      height: 100%;
+      background-image: url('/assets/footer_lodyas.png');
+  }
+  .info-wrapper {
+    margin-top: 0;
+    img {
+      width: 175px;
+      margin-top: 14px;
+    }
+  }
+  .main-content {
+    margin: 0;
+  }
+  .next-blog-arrows {
+    float: none;
+  }
+  .youtube-video {
+    display: none;
+  }
+  .timeline {
+    li {
+        .timeline-panel {
+          margin-right: 0;
+        }
+    }
+  }
+  .timeline-panel {
+    margin-right: 0;
+  }
+
+}

@@ -34,8 +34,10 @@ layout: default
             </div>
 
             <div class="job-img-wrapper">
-              <img ng-src="{{job.companyImg}}"/>
-              <img ng-bind="ng-src="{{job.companyImg}}""/>
+              <img-wrapper
+                ng-class="{'dbc-img': job.companyName === 'Dev Bootcamp'}"
+                img="job.companyImg"
+              ></img-wrapper>
             </div>
 
             <div class="title-wrapper">

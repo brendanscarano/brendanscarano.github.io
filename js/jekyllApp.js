@@ -21,7 +21,7 @@
         type: 'work',
         companyName: 'Dev Bootcamp',
         companyImg: '/assets/dbc.png',
-        dates: 'Jul 2014 - Sep 2014',
+        dates: 'Jul 2014 - Present',
         title: 'Coach',
         description: [
           'Provided assistance and support to current students with the goal of raising their understanding in the various languages and concepts taught including Ruby, Rails, JavaScript, HTML, CSS, and more.',
@@ -82,7 +82,7 @@
       {
         type: 'work',
         companyName: 'The NPD Group',
-        companyImg: '//assets/npd.png',
+        companyImg: '/assets/npd.png',
         dates: 'Jun 2011 - Dec 2012',
         title: 'Operations Associate',
         description: [
@@ -110,7 +110,7 @@
   }
 
   angular
-    .module('JekyllApp', [])
+    .module('JekyllApp', ['imgWrapperDirective'])
     .controller('TimelineCtrl', TimelineCtrl);
 
 })();
