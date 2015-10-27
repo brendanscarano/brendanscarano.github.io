@@ -1,5 +1,5 @@
 ---
-title: DBC Week 2
+title: Dev Bootcamp Week 2
 layout: post
 ---
 

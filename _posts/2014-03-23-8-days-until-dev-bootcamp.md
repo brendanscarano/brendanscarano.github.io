@@ -1,5 +1,5 @@
 ---
-title: 8 Days Until DBC
+title: 8 Days Until Dev Bootcamp
 layout: post
 ---
 

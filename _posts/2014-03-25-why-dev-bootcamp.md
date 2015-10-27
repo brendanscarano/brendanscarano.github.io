@@ -1,5 +1,5 @@
 ---
-title: Why DBC?
+title: Why Dev Bootcamp?
 layout: post
 ---
 

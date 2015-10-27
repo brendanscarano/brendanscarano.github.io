@@ -1,5 +1,5 @@
 ---
-title: DBC Week 8/9
+title: Dev Bootcamp Week 8/9
 layout: post
 ---
 
