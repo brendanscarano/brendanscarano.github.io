@@ -96,7 +96,7 @@ So keeping this in mind, I began refactoring my artist search box on my home pag
 *
 * @description
 *   Initial search box on home screen
-*   to search for artists, and obtain their most recent concerts
+*   to search for artists, and obtain their most popular tracks
 */
 
 (function() {
@@ -111,7 +111,7 @@ So keeping this in mind, I began refactoring my artist search box on my home pag
 
     return {
       restrict: 'EA',
-      templateUrl: 'client/components/concert-search-box/concert-search-box.ng.html',
+      templateUrl: 'client/components/artist-search-box/artist-search-box.ng.html',
       controllerAs: 'vm',
       controller: artistSearchBoxCtrl,
       link: link
