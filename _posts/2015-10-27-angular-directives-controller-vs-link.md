@@ -92,7 +92,7 @@ So keeping this in mind, I began refactoring my artist search box on my home pag
 
 {% highlight javascript %}
 /**
-* @name: concertSearchBox
+* @name: artistSearchBox
 *
 * @description
 *   Initial search box on home screen
@@ -101,7 +101,7 @@ So keeping this in mind, I began refactoring my artist search box on my home pag
 
 (function() {
 
-    function concertSearchBox( $state, $http ) {
+    function artistSearchBoxCtrl( $state, $http ) {
 
     }
 
@@ -113,25 +113,25 @@ So keeping this in mind, I began refactoring my artist search box on my home pag
       restrict: 'EA',
       templateUrl: 'client/components/concert-search-box/concert-search-box.ng.html',
       controllerAs: 'vm',
-      controller: concertSearchBoxCtrl,
+      controller: artistSearchBoxCtrl,
       link: link
     };
 
   }
 
   angular
-    .module('concertSearchBoxDirective', [])
-    .directive('concertSearchBox', ['$state', '$http', concertSearchBox]);
+    .module('artistSearchBoxDirective', [])
+    .directive('artistSearchBox', ['$state', '$http', artistSearchBox]);
 
 })();
 
 {% endhighlight %}
 
-The actual click event, originally found in the home page's controller will now get moved into the <b>concertSearchBox</b> directive's controller:
+The actual click event, originally found in the home page's controller will now get moved into the <b>artistSearchBox</b> directive's controller:
 
 {% highlight javascript %}
 
-function concertSearchBoxCtrl() {
+function artistSearchBoxCtrl() {
 
   this.searchTracks = function( artistName ) {
 
@@ -187,4 +187,4 @@ function link( scope, element, attrs ) {
 
 {% endhighlight %}
 
-The beauty of this, is that now, I no longer need the home controller at all. All of the logic previously found in this controller has been decoupled and moved to the directive, <b>concertSearchBox</b> ,it belongs in. The home controller is no longer being bogging down with unnecessary variables and functions.
+The beauty of this, is that now, I no longer need the home controller at all. All of the logic previously found in this controller has been decoupled and moved to the directive, <b>artistSearchBox</b> ,it belongs in. The home controller is no longer being bogging down with unnecessary variables and functions.
