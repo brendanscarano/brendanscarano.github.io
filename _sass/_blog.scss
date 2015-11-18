@@ -26,6 +26,7 @@
   margin-bottom: 50px;
 
   a {
+    width: 100%;
     color: #999;
     &:hover {
       color: #333;
@@ -38,6 +39,7 @@
     left: 0;
   }
   .blog-date {
+    float: right;
     margin-bottom: 2px;
     right: 0;
   }
