@@ -108,7 +108,7 @@ function foo() {
 }
 {% endhighlight %}
 
-The concept of hoisting is extremely extremely important in understanding how the computer reads our JavaScript files and when variables and functions will be set and defined in the scope.
+The concept of hoisting is extremely important in understanding how the computer reads our JavaScript files and when variables and functions will be set and defined in the scope.
 
 If you would like to continue digging into <i>hoisting</i> in more detail an excellent resource is Kyle Simpson's book, <a href="https://github.com/getify/You-Dont-Know-JS/tree/master/scope%20%26%20closures" target="_blank">You Don't Know JS: Scopes & Closures</a>. Specifically, in <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/ch4.md" target="_blank">Chapter 4</a> he goes in depth with JavaScript <i>hoisting</i> and it is a great way to dig deeper into this concept.
 
