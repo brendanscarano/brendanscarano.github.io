@@ -1,5 +1,5 @@
 ---
-title: Angular Directives -<br /> Link vs Controller
+title: Angular Directives - Link vs Controller
 layout: post
 ---
 

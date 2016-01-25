@@ -1,5 +1,5 @@
 ---
-title: Angular Directives - <br /> Isolating Controller Scope
+title: Angular Directives - Isolating Controller Scope
 layout: post
 ---
 
