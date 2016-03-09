@@ -13,6 +13,8 @@ layout: default
 <div ng-app="JekyllApp">
   <ul class="timeline" ng-controller="TimelineCtrl as vm">
 
+      <fusioncharts width="100%" height="400" type="doughnut3d" datasource="{{sheetDataSource}}"> </fusioncharts>
+
       <li ng-repeat="job in vm.jobs"
           ng-class="{'timeline-inverted': job.type === 'school'}"
           ng-init="showBody = false">
