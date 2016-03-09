@@ -5,13 +5,13 @@ layout: post
 
 Throughout 2015, reading any hacker blog, listening to conversations at meet ups, or just browsing through twitter, it was very hard to ignore the rapid explosion of React. A library built and maintained by Facebook, and now implemented in parts of their site along with several others including Instagram, HipChat, Flipboard, The NFL, and Reddit just to name a few, and it's obvious React isn't something that is going away any time soon.
 
-When I first started reading up on React, one of the major appeals that peaked my interest was React Native, and the ability to build native iOS and Android apps with JavaScript. I had explored this before with Ionic and Cordava but never really got too deep into them, as the more I read, the more it seemed like performance issues, and user interactions were going to be a major hinderance so I decided to shift my focus to other areas.
+When I first started reading up on React, one of the major appeals that peaked my interest was React Native, and the ability to build native iOS and Android apps with JavaScript. I had explored this before with Ionic and Cordava but never really got too deep into them, as the more I read, the more it seemed like performance issues, and user interactions were going to be a major hindrance so I decided to shift my focus to other areas.
 
-In addition, about a year ago this time, in early 2015, I had started taking online courses in Objective-C to get a basic understanding of what it would take to build native iOS apps. Between the new syntax and rules that came with Objective-C, the new styling aspects of iPhone apps, along with trying to understand xCode and the new developer environment, it seemed too great of a task to learn all of these new skills. My main priority at the time was ramping up my understanding of JavaScript, and Angular, both of which I was using at work, so it seemed like my time was better allocated to these areas rather than iPhone app development.
+In addition, about a year ago this time, in early 2015, I had started taking online courses in Objective-C to get a basic understanding of what it would take to build native iOS apps. Between the new syntax and rules that came with Objective-C, the new styling aspects of iPhone apps, along with trying to understand Xcode and the new developer environment, it seemed too great of a task to learn all of these new skills. My main priority at the time was ramping up my understanding of JavaScript, and Angular, both of which I was using at work, so it seemed like my time was better allocated to these areas rather than iPhone app development.
 
 So after about a month and a half of going through Objective-C tutorials and browsing through some books, I decided to put that goal of building an iOS app to the side and primarily focus on JavaScript, and increasing my knowledge of front-end development, something that I loved and that would directly impact my performance at work.
 
-Because the goal of one day building an iPhone app was never fully gone, once I had heard about React Native, I knew this was something I wanted to explore in greater detail. It's exciting to see, too, that React Native is only gaining momentum and interest as developers continue using it. Just a few days ago, at the React.js Confrence, Nick Schrock continued to praise React Native in his Keynote presentation.
+Because the goal of one day building an iPhone app was never fully gone, once I had heard about React Native, I knew this was something I wanted to explore in greater detail. It's exciting to see, too, that React Native is only gaining momentum and interest as developers continue using it. Just a few days ago, at the React.js Conference, Nick Schrock continued to praise React Native in his Keynote presentation.
 
 In it, he describes building the new Facebook Ads Manager app and states:
 
@@ -35,7 +35,7 @@ In addition, Facebook has a few blog posts on how they built the new Ads Manager
 
 <h4 class="blog-header">React</h4>
 
-So before digging into React Native, and learning this new, exciting technology, I really wanted to get an understanding of React and how this new library functions. Coming from an Angular background it was difficult at first to wrap my head around the fact that unlike Anuglar, React doesn't come with an entire framework for you to use.
+So before digging into React Native, and learning this new, exciting technology, I really wanted to get an understanding of React and how this new library functions. Coming from an Angular background it was difficult at first to wrap my head around the fact that unlike Angular, React doesn't come with an entire framework for you to use.
 
 As taken from the React website:
 
@@ -56,7 +56,7 @@ Stephen is definitely one of the best teachers I've had in an online course and 
 
 After going through several tutorials I decided it was time to try building a React app on my own. Using React and the Spotify API I created a very simple app that allows a user to search for an artist, and then click on the artist to display their related artists.
 
-I used webpack for my build process mainly following this tutorial:
+I used Webpack for my build process mainly following this tutorial:
 <a href="http://survivejs.com/webpack_react/developing_with_webpack/" target="_blank">Developing With Webpack</a>
 
 The code can be found here:
@@ -68,7 +68,7 @@ After getting an understanding of React, I moved to learning React Native. I fin
 
 Again, I used Udemy and a course by Stephen Grinder, <a href="https://www.udemy.com/reactnative/" target="_blank">Build Apps with React Native</a> to get up to speed.
 
-One of the biggest challenges to overcome is getting used to the iOS style code that is needed to write an application. So for example a <span class="code">div</span> will become a <span class="code">View</span>, and a <span class="code">span</span> is <span class="code">Text</span>. Styles become an object declared either at the bottom of the file (or in a seperate one all together), and there are several components native to the phone such as <span class="code">ActivityIndicatoryIOS</span>, <span class="code">TextInput</span>, <span class="code">Navigator</span> and many others.It's only once you start working through some examples, and going through the tutorials that these start to feel like second nature.
+One of the biggest challenges to overcome is getting used to the iOS style code that is needed to write an application. So for example a <span class="code">div</span> will become a <span class="code">View</span>, and a <span class="code">span</span> is <span class="code">Text</span>. Styles become an object declared either at the bottom of the file (or in a separate one all together), and there are several components native to the phone such as <span class="code">ActivityIndicatoryIOS</span>, <span class="code">TextInput</span>, <span class="code">Navigator</span> and many others. It's only once you start working through some examples, and going through the tutorials that these start to feel like second nature.
 
 <h4 class="blog-header">Building My First React Native App</h4>
 
@@ -78,11 +78,11 @@ This was a good first application since it doesn't persist data, therefore no da
 
 Because I was only focusing on the iOS part of this I decided to put the main component in <span class="code">index.ios.js</span> where the code for the iOS application lives. Similarly if I wanted to build this out for Android I would use the <span class="code">index.android.js</span>. Ideally if you are someone like Facebook looking to share the majority of your code between both iOS and Android, both of these files would look quite thin as the majority of the code would be located in a shared components section that would be injected into both of them.
 
-I am first importing several pieces I need from <span class="code">react-native</span> that are native to iOS. I am then importing the two seperate weather components, <span class="code">HourlyWeather</span>, and <span class="code">DailyWeather</span> along with the file used to make the Weather API call.
+I am first importing several pieces I need from <span class="code">react-native</span> that are native to iOS. I am then importing the two separate weather components, <span class="code">HourlyWeather</span>, and <span class="code">DailyWeather</span> along with the file used to make the Weather API call.
 
 <i>I've eliminated some of the components for the purpose of this blog and will only focus on the weather aspect.</i>
 
-It is here, in the parent component, that I will obtain the user's current position and make the call to the forecast API. If the API hasn't returned any data yet, the component will render the <span class="code">ActivityIndicatorIOS</span> which is the native loading spinner for iOS apps. Once the API has returned data and the state of the componenet has been updated, the component will pass the data down to the two children, <span class="code">HourlyWeather</span>, and <span class="code">DailyWeather</span>.
+It is here, in the parent component, that I will obtain the user's current position and make the call to the forecast API. If the API hasn't returned any data yet, the component will render the <span class="code">ActivityIndicatorIOS</span> which is the native loading spinner for iOS apps. Once the API has returned data and the state of the component has been updated, the component will pass the data down to the two children, <span class="code">HourlyWeather</span>, and <span class="code">DailyWeather</span>.
 
 {% highlight javascript %}
 // meteo/index.ios.js
@@ -161,7 +161,7 @@ const styles = StyleSheet.create({
 AppRegistry.registerComponent('meteo', () => App);
 {% endhighlight %}
 
-The <span class="code">DailyWeather</span> will now recieve props from the parent component which can then be mapped over to build several views to display each day's weather. I am also importing both <span class="code">moment</span> to display the time properly, along with <span class="code">react-native-emoji</span> which I am using to display the weather icons.
+The <span class="code">DailyWeather</span> will now receive props from the parent component which can then be mapped over to build several views to display each day's weather. I am also importing both <span class="code">moment</span> to display the time properly, along with <span class="code">react-native-emoji</span> which I am using to display the weather icons.
 
 {% highlight javascript %}
 'use strict';
