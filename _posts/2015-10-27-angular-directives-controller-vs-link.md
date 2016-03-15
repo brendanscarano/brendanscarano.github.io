@@ -21,7 +21,7 @@ When I first started learning Angular, I wasn't all that comfortable with buildi
 A controller may have looked something like this:<br />
 <b>(And while functional, this is breaking several best practices)</b>
 
-{% highlight javascript linenos%}
+{% highlight javascript%}
 (function() {
 
   function HomeCtrl( $scope, $state, $http ) {
