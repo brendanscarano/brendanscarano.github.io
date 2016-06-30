@@ -3,7 +3,7 @@
   font-size: 18px;
   p {
     margin-bottom: 20px;
-    line-height: 26px;
+    line-height: 36px;
   }
   a {
     font-weight: bold;
@@ -16,6 +16,14 @@
   bottom: 0;
   width: 75%;
   right: -1px;
-  opacity: 0.08;
+  opacity: 0.05;
+}
+
+@media only screen
+    and (max-width : 900px)
+{
+  .nyc-img {
+    width: 100%;
+  }
 }
 

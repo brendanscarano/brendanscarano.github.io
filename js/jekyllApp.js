@@ -6,10 +6,18 @@
     this.jobs = [
       {
         type: 'work',
+        companyName: 'Jet.com',
+        companyImg: '/assets/jet.png',
+        dates: 'June 2016 - Present',
+        title: 'Software Engineer',
+        description: []
+      },
+      {
+        type: 'work',
         companyName: 'Priceline.com',
         companyImg: '/assets/priceline.png',
-        dates: 'Sep 2014 - Present',
-        title: 'Mobile Web Engineer',
+        dates: 'Sep 2014 - May 2016',
+        title: 'Front End Engineer',
         description: [
         'Collaborated with team to transition old code stack based in jQuery to new stack in AngularJS.',
         'Implemented several new designs and features through HTML, SCSS, and JavaScript.',

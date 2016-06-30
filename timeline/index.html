@@ -31,7 +31,8 @@ layout: default
 
             <div class="job-img-wrapper">
               <img-wrapper
-                ng-class="{'dbc-img': job.companyName === 'Dev Bootcamp'}"
+                ng-class="{'dbc-img': job.companyName === 'Dev Bootcamp',
+                'jet-img': job.companyName === 'Jet.com'}"
                 img="job.companyImg"
               ></img-wrapper>
             </div>
@@ -45,7 +46,8 @@ layout: default
               </div>
             </div>
 
-            <div class="show-more-buttons">
+            <div class="show-more-buttons"
+                  ng-if="job.description.length !== 0">
               <i class="fa fa-plus-square-o"
                   ng-show="!showBody"
                   ng-click="showBody = !showBody"></i>
