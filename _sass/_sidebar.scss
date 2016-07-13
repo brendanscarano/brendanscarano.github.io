@@ -19,14 +19,21 @@
   width: 330px;
   background-image: url('../assets/footer_lodyas.png');
 
-  h3 {
+  h1 {
+    font-size: 24px;
+    margin-bottom: 2px;
     text-align: center;
     color: #fff;
     text-transform: uppercase;
     font-family: 'Lato';
     font-weight: 500;
     line-height: 1.0;
+  }
 
+  h2 {
+    font-size: 18px;
+    display: inline;
+    font-weight: 400;
   }
 }
 
@@ -95,12 +102,13 @@
     a {
       color: #696969;
     }
-    h5 {
-      text-align: center;
-      margin: 0;
-      color: #ccc;
-      margin-top: 4px;
-    }
+  }
+  h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
   }
 }
 
