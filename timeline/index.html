@@ -46,7 +46,7 @@ layout: default
               </div>
             </div>
 
-            <div class="show-more-buttons"
+<!--             <div class="show-more-buttons"
                   ng-if="job.description.length !== 0">
               <i class="fa fa-plus-square-o"
                   ng-show="!showBody"
@@ -54,19 +54,16 @@ layout: default
               <i class="fa fa-minus-square-o"
                   ng-show="showBody"
                   ng-click="showBody = !showBody"></i>
-            </div>
+            </div> -->
 
           </div> <!-- timeline-heading -->
 
-          <div class="timeline-body"
-                ng-show="showBody">
-
+          <div class="timeline-body">
             <ul>
               <li ng-repeat="description in job.description">
                 <p ng-bind="description"></p>
               </li>
             </ul>
-
           </div> <!-- timeline-body -->
 
         </div> <!-- timeline-panel -->
