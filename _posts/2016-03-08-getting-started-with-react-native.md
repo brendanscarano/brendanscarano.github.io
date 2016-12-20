@@ -1,5 +1,5 @@
 ---
-title: Starting with React Native
+title: Getting Started with React Native
 layout: post
 ---
 
