@@ -14,19 +14,19 @@
   bottom: 0px;
   left: 0px;
   text-align: center;
-  background: #f5f6f5;
-  height: 100%;
+  background: #f9f9f9;
+  height: 20%;
   width: 330px;
-  background-image: url('../assets/footer_lodyas.png');
+  // background-image: url('../assets/footer_lodyas.png');
 
   h1 {
     font-size: 24px;
     margin-bottom: 2px;
-    text-align: center;
-    color: #fff;
+    text-align: right;
+    color: #333;
     text-transform: uppercase;
     font-family: 'Lato';
-    font-weight: 500;
+    font-weight: bold;
     line-height: 1.0;
   }
 
@@ -39,10 +39,10 @@
 
 .info-wrapper {
   margin-top: 25%;
-  color: #fff;
+  color: #666;
 
   img {
-    border: 1px solid black;
+    border: 1px solid #999;
     border-radius: 1100px;
     width: 50%;
     height: 170px;
@@ -51,12 +51,12 @@
 
 
 .profession-list {
-  text-align: center;
+  text-align: right;
 
   h4 {
     font-weight: 400;
     display: inline-block;
-    color: #fff;
+    color: #666;
   }
 }
 
@@ -66,22 +66,23 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    text-align: center;
+    text-align: right;
 
     li {
       display: inline-block;
-      font-size: 32px;
-      margin: 0 10px;
-      font-size: 18px;
+      margin: 0 0 0 1rem;
+      font-size: 2rem;
 
       a {
-        color: #949494;
+        color: #999;
         text-decoration: none;
         &:hover {
-            color: #fff;
+            color: #333;
         }
       }
-
+      a.active {
+          color: #333;
+      }
     }
 
   }
@@ -93,44 +94,60 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    text-align: center;
+    text-align: right;
     li {
       display: inline-block;
       font-size: 32px;
-      margin: 0 10px;
+      margin: 0 0 0 10px;
     }
     a {
       color: #696969;
     }
   }
   h3 {
-    text-align: center;
-    color: #fff;
+    text-align: right;
+    color: #666;
     font-size: 16px;
     font-weight: 400;
     margin-top: 0;
   }
 }
 
-
-.facebook:hover {
-  color: #3B5998;
+.twitter {
+  color: #80ddff;
 }
 
+.linkedin {
+  color: #a4bbdb
+}
+.spotify {
+  color: #7beaa2
+}
+.soundcloud {
+  color: #ffbb80;
+}
+
+.github {
+ color: #b3b3b3;
+}
+
+
 .twitter:hover {
-  color: #4099FF;
+  color: #00aced;
 }
 
 .linkedin:hover {
   color: #4875B4
 }
-
+.spotify:hover {
+  color: #1ed760;
+}
 .soundcloud:hover {
   color: #ff7700;
 }
 
 .github:hover {
- color: #4183c4;
+ color: #2f2f2f;
 }
 
 

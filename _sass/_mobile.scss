@@ -1,8 +1,13 @@
-@media only screen 
-    and (max-width : 900px) 
+@media only screen
+    and (max-width : 900px)
 {
   body {
     padding: 0;
+    padding-top: 0;
+  }
+  .about-wrapper,
+  .blog-wrapper,
+  .blog-selection-wrapper {
     padding-top: 0;
   }
   .container {
@@ -10,15 +15,18 @@
     width: 100%;
   }
   .sidebar {
+      margin-top: 2rem;
       position: static;
       width: 100%;
       top: 0px;
       bottom: 0px;
       left: 0px;
       text-align: center;
-      background: #f5f6f5;
+      background: #f9f9f9;
       height: 100%;
-      background-image: url('/assets/footer_lodyas.png');
+      h1 {
+        text-align: center;
+      }
   }
   .info-wrapper {
     margin-top: 0;
@@ -26,6 +34,18 @@
       width: 175px;
       margin-top: 14px;
     }
+  }
+  .profession-list {
+    text-align: center;
+  }
+  .contact-me-icons,
+  .navigation-buttons {
+    ul {
+      text-align: center;
+    }
+  }
+  .contact-me-icons h3 {
+      text-align: center;
   }
   .main-content {
     margin: 0;

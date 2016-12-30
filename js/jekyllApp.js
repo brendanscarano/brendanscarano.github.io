@@ -10,7 +10,10 @@
         companyImg: '/assets/jet.png',
         dates: 'June 2016 - Present',
         title: 'Software Engineer',
-        description: []
+        description: [
+          'Was the lead developer on building a new internal portal utilizing React/ Redux on the front end, and GraphQL as the data layer.',
+          'Worked alongside team in cloning the Jet.com site as several React components allowing for rapid prototyping and testing.'
+        ]
       },
       {
         type: 'work',

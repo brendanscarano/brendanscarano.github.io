@@ -6,6 +6,10 @@
   padding-top: 60px;
 }
 
+body {
+  background: #f9f9f9;
+}
+
 .container {
   width: 85%;
 }
@@ -21,4 +25,3 @@
 @import "sidebar";
 @import "mobile";
 @import "syntax";
-@import "gitGraph";

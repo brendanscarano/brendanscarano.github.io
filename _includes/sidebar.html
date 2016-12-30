@@ -1,8 +1,8 @@
-<div class="info-wrapper">
 
-  <div class="img-wrapper">
+<div class="info-wrapper">
+  <!--<div class="img-wrapper">
     <img src="/assets/mainPicture.png" alt="mainPicture">
-  </div>
+  </div>-->
 
   <h1>Brendan Scarano</h1>
 
@@ -12,9 +12,32 @@
   </div>
   <div class="navigation-buttons">
     <ul>
-      <li><a href="/">About</a></li>
-      <li><a href="/timeline">Experience</a></li>
-      <li><a href="/posts">Blog</a></li>
+      <li>
+          <a
+            href="/"
+            class="{% if page.url == '/' %}active{% endif %}"
+          >
+            <i class = "fa fa-user-o icon"></i>
+          </a>
+      </li>
+
+      <li>
+        <a
+          href="/timeline"
+          class="{% if page.url == '/timeline/' %}active{% endif %}"
+        >
+          <i class = "fa fa-laptop icon"></i>
+        </a>
+      </li>
+
+      <li>
+        <a
+          href="/posts"
+          class="{% if page.url != '/' and page.url != '/timeline/' %}active{% endif %}"
+        >
+          <i class = "fa fa-pencil icon"></i>
+        </a>
+      </li>
     </ul>
   </div>
 
@@ -29,8 +52,12 @@
           <i class = "fa fa-github icon github"></i></a>
       </li>
       <li>
+        <a href="https://play.spotify.com/user/bscarano1489" target="_blank" class="nav-pics">
+          <i class = "fa fa-spotify icon spotify"></i></a>
+      </li>
+      <li>
         <a href="https://soundcloud.com/brendan-joe" target="_blank" class="nav-pics">
-          <i class = "fa fa-cloud icon soundcloud"></i></a>
+          <i class = "fa fa-soundcloud icon soundcloud"></i></a>
       </li>
       <li>
         <a href="http://www.twitter.com/brendanscarano" target="_blank" class="nav-pics">
