@@ -3,7 +3,7 @@ title: A Jet Interview Question, Revisited
 layout: post
 ---
 
-Back when I had interviewed with Jet, during one of the several coding excersises I went through, there was one problem that stuck out.
+Back when I had interviewed with Jet, during one of the several coding exercises I went through, there was one problem that stuck out.
 
 The challenge was to write a function, <span class="code">add</span>, that will satisfy any of the ways it is called below.
 
@@ -15,29 +15,46 @@ add(1, 2, 3)(4);
 add(1)(2)(3)(4);
 {% endhighlight %}
 
-When I initially heard the question I was a bit perplexed as to how the solution would be implemented however having gotten more comfortable with ES6 syntax, as well as concepts such as currying in JavaScript, over the last few months, revisiting this question becomes a lot more clear.
+When I initially heard the question I was a bit perplexed as to how the solution would be implemented however having gotten more comfortable with ES6 syntax, as well as concepts such as currying, over the last few months, revisiting this question becomes a lot more clear.
 
-One of the first keys in solving this problem is utilizing the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments" target="_blank"></i>arguments</a> object that is a local varialbe within all JavaScript functions.
-
-So if we're calling <span class="code">add(1, 2)</span>, the arguments object will be <span class="code">{ '0': 1, '1': 2 }</span>:
+One of the first keys in solving this problem is utilizing the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments" target="_blank"></i>arguments</a> object that is a local variable within all JavaScript functions, and allows you to refer to the functions arguments in an object as such:
 {% highlight javascript %}
-function add() {
-    console.log(arguments)
+function add(x, y, z) {
+    console.log('arguments index 0 :', arguments[0]);
+    console.log('arguments index 1 :', arguments[1]);
+    console.log('arguments index 2 :', arguments[2]);
 }
 
-add(1, 2);
-// { '0': 1, '1': 2 }
+add(1, 'Hello World', ['Testing']);
+// arguments index 0 : 1
+// arguments index 1 : 'Hello World'
+// arguments index 2 : ['Testing']
 {% endhighlight %}
 
+You can also set arguments:
+{% highlight javascript %}
+function add(x, y, z) {
+    console.log('arguments index 0 :', arguments[0]);
+    console.log('arguments index 1 :', arguments[1]);
+    arguments[2] = 100;
+    console.log('arguments index 2 :', arguments[2]);
+}
 
-As with any function where a base case must be met, it is best to write this part first to account for the final case being met.
+add(1, 'Hello World', ['Testing']);
+// arguments index 0 : 1
+// arguments index 1 : 'Hello World'
+// arguments index 2 : 100
+{% endhighlight %}
+
+Using this knowledge and knowing that the <span class="code">add</span> function is looking for a base case, where the arguments object length is 4, it is best to implement this functionality first.
 {% highlight javascript %}
 // function takes no set arguments as we're unsure whether 0-4 arguments will be passed in
 function add() {
     if (arguments.length === 4) {
         /**
-         * Wrap arguments in an array and use the
+         * Wrap arguments object in an array and use the
          * ES6 spread operator to build the array
+         *
          * Call reduce on the array to sum all arguments
         */
         return [...arguments].reduce((acc, next) => acc + next, 0);
@@ -45,7 +62,7 @@ function add() {
 }
 {% endhighlight %}
 
-Now that takes care of the base case so if we were to run the test where 4 arguments is passed in we will have the sum, 10, returned.
+Now that takes care of the base case so if we were to run the test where 4 arguments are passed in we will have the sum, 10, returned.
 {% highlight javascript %}
 function add() {
     if (arguments.length === 4) {
@@ -53,11 +70,10 @@ function add() {
     }
 }
 
-add(1, 2, 3, 4);
-// 10
+add(1, 2, 3, 4); // 10
 {% endhighlight %}
 
-In instances where the 4 arguments are not passed in, and the base case is not met, a curried function must be returned to add to the arguments that came before it.
+In instances where the 4 arguments are not passed in, and the base case is not met, a curried function must be returned to add to the arguments that came before it, and continue to build the arguments object.
 {% highlight javascript %}
 function add() {
     if (arguments.length === 4) {
@@ -94,7 +110,7 @@ function add() {
 }
 {% endhighlight %}
 
-Now, with the comments removed...
+Now, with the comments removed:
 {% highlight javascript %}
 function add() {
     if (arguments.length === 4) {
@@ -116,4 +132,4 @@ add(1)(2)(3)(4); // 10
 add()(1)(2)(3)(4); // 10
 {% endhighlight %}
 
-With a bit of ES6 syntax, in the spread operator, and the reduce function, along with the power of currying in JavaScript, an interview question like this can be solved with elegance and ease.
+With a bit of ES6 syntax, the spread operator, the reduce function, and the power of currying in JavaScript, an interview question like this can be solved with elegance and ease.
