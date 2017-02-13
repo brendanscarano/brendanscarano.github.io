@@ -15,7 +15,7 @@ add(1, 2, 3)(4);
 add(1)(2)(3)(4);
 {% endhighlight %}
 
-When I initially heard the question I was a bit perplexed as to how the solution would be implemented however having gotten more comfortable with ES6 syntax, as well as concepts such as currying, over the last few months, revisiting this question becomes a lot more clear.
+When I initially heard the question I was a bit perplexed as to how the solution would be implemented however having gotten more comfortable with ES6 syntax, as well as concepts such as partial application, over the last few months, revisiting this question becomes a lot more clear.
 
 One of the first keys in solving this problem is utilizing the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments" target="_blank"></i>arguments</a> object that is a local variable within all JavaScript functions, and allows you to refer to the functions arguments in an object as such:
 {% highlight javascript %}
@@ -73,7 +73,7 @@ function add() {
 add(1, 2, 3, 4); // 10
 {% endhighlight %}
 
-In instances where the 4 arguments are not passed in, and the base case is not met, a curried function must be returned to add to the arguments that came before it, and continue to build the arguments object.
+In instances where the 4 arguments are not passed in, and the base case is not met, a partially applied function must be returned to add to the arguments that came before it, and continue to build the arguments object.
 {% highlight javascript %}
 function add() {
     if (arguments.length === 4) {
@@ -88,7 +88,7 @@ function add() {
     const outerArguments = arguments;
 
     /**
-     * Return the curried function here
+     * Return the partially applied function here
     */
     return function() {
         /**
@@ -132,4 +132,4 @@ add(1)(2)(3)(4); // 10
 add()(1)(2)(3)(4); // 10
 {% endhighlight %}
 
-With a bit of ES6 syntax, the spread operator, the reduce function, and the power of currying in JavaScript, an interview question like this can be solved with elegance and ease.
+With a bit of ES6 syntax, the spread operator, the reduce function, and the power of partial application in JavaScript, an interview question like this can be solved with elegance and ease.
