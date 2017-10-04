@@ -20,10 +20,18 @@
   margin: 2rem 0;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+
+  .iframe-text {
+    font-size: .825rem;
+    font-style: italic;
+    margin-top: -1rem;
+  }
 
   iframe {
     max-width: 30rem;
   }
+
 }
 
 .blog-wrapper {

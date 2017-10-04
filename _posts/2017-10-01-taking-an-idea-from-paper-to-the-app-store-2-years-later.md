@@ -9,10 +9,9 @@ Two years ago I had never released an app on the Apple app store and didn't have
 
 <img src="/assets/gmme/treehouse.png" alt="treehouse">
 
-I’ve always been an observant person, and have often found myself looking at the world and seeing different problems that I would like to fix. Due to the constant chattering in my brain of new ideas, I have filled many a Google spreadsheet, sticky notes, and loose-leaf paper with all of the thoughts that come to my mind.
+I often find myself looking at different problems that arise on a daily basis and trying to think of ways technology can alleviate or solve the issue. Due to the constant chattering in my brain of new ideas, I have filled many a Google spreadsheet, sticky notes, and loose-leaf paper with all of the thoughts that come to my mind.
 
-
-One such thought happened on (or around) <b>September 13th, 2015</b>... (Special thanks to Dropbox for the date the photo below was saved). On this day, I envisioned an app that would request access to a contact's Camera Roll for a certain date period. The app would let you select a person from your list of contacts, select what dates you wanted all of their photos, and then send them a request, in which as long as they accepted, would grant you access to all their photos within the date range. Like many of my other ideas, the idea stayed on this piece of paper for quite some time...
+One such thought happened on (or around) <b>September 13th, 2015</b>... (Special thanks to Dropbox for the date the photo below was saved). On this day, I jotted down an idea that would request access to a contact's Camera Roll for a certain date period. The app would let you select a person from your list of contacts, select what dates you wanted all of their photos, and then send them a request, in which as long as they accepted, would grant you access to all their photos within the date range. Like many of my other ideas, the idea stayed on this piece of paper for quite some time...
 
 <img src="/assets/gmme/paper_idea.png" alt="treehouse">
 
@@ -58,6 +57,7 @@ On <b>March 25th, 2017</b> I started a new project, <b>Goodbye Contacts</b>, tha
 
 <div class="iframe-wrapper">
     <iframe src="https://giphy.com/embed/bfNKVTSgiiMMg" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/happy-christmas-excited-bfNKVTSgiiMMg"></a></p>
+    <span class="iframe-text">Getting my first app in the app store... a lot like opening a N64 on Christmas!</span>
 </div>
 
 It felt amazing to watch something go from lines of code, and a few images on my computer, to an app that other people could use and try on their own devices. <b>Goodbye Contacts</b> was never meant to be more than a way for me to learn how to get an app on the app store, and prove to myself I could go through the process of building an app, end to end, so once that app was deployed, I wanted to focus my attention back on <b>Gimme</b>, my true passion. So for the 3rd time now, on <b>May 26th</b>, I started a new project on Github, but this time with a cool, secretive name...
@@ -98,6 +98,7 @@ I had a few minor issues I had to resolve in my app before Apple would fully acc
 
 <div class="iframe-wrapper">
     <iframe src="https://giphy.com/embed/NbgeJftsErO5q" width="480" height="380" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/funny-star-trek-mind-blown-NbgeJftsErO5q"></a></p>
+    <span class="iframe-text">Finally seeing Gmme in the app store felt like...</span>
 </div>
 
 <img src="/assets/gmme/app_store_photo.png" alt="treehouse">
