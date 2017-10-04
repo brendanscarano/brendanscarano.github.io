@@ -64,7 +64,7 @@ It felt amazing to watch something go from lines of code, and a few images on my
 
 <img src="/assets/gmme/octoGimme.png" alt="treehouse">
 
-<h4 class="blog-header">3rd Time's (almost) a Charm!</h4>
+<h4 class="blog-header">3rd Time's (almost) a Charm</h4>
 
 To help visualize both short term and long term tasks I wanted to accomplish, I bought a whiteboard to act as a constant reminder as to what needed to get done next. I set an early goal to have <b>Gimme</b> deployed to the app store by <b>August 25th</b>... 13 weeks from writing the first line of code.
 
@@ -103,7 +103,9 @@ I had a few minor issues I had to resolve in my app before Apple would fully acc
 
 <img src="/assets/gmme/app_store_photo.png" alt="treehouse">
 
-<b>Gmme</b>, was on the app store! It was such an incredible feeling to see an idea that was once a few scribbled lines on a piece of loose leaf turn into a real life, working app. Building this app taught me a taught me so much, from expanding my understanding of React Native to finding tools to help create, icons, app store, photos, and landing pages, and the entire apple app store deployment process. Now that it's in the app store I'm going to continue building out new features and fixing bugs while concentrating on getting the word out about it.
+<b>Gmme</b>, was on the app store! It was such an incredible feeling to see an idea that was once a few scribbled lines on a piece of loose leaf turn into a real life, working app. Building this app taught me a taught me so much, from expanding my understanding of React Native to finding tools to help create, icons, app store photos, and landing pages, and the entire apple app store deployment process. It's been an incredibly challening and fun journey, and I'm excited to continue building out new features and improving it any way I can.
 
-Even though the road to get <b>Gmme</b> on the app store has been difficult, I feel that the hardest part has only just started in getting users to try it and make it a part of their lives.
+<h4 class="blog-header">Now Comes The Hard Part</h4>
+
+Getting people to actually use it!
 
