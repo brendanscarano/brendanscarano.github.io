@@ -57,7 +57,7 @@ On <b>March 25th, 2017</b> I started a new project, <b>Goodbye Contacts</b>, tha
 
 <div class="iframe-wrapper">
     <iframe src="https://giphy.com/embed/bfNKVTSgiiMMg" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/happy-christmas-excited-bfNKVTSgiiMMg"></a></p>
-    <span class="iframe-text">Getting my first app in the app store... a lot like opening a N64 on Christmas!</span>
+    <span class="iframe-text">Getting my first app in the app store!</span>
 </div>
 
 It felt amazing to watch something go from lines of code, and a few images on my computer, to an app that other people could use and try on their own devices. <b>Goodbye Contacts</b> was never meant to be more than a way for me to learn how to get an app on the app store, and prove to myself I could go through the process of building an app, end to end, so once that app was deployed, I wanted to focus my attention back on <b>Gimme</b>, my true passion. So for the 3rd time now, on <b>May 26th</b>, I started a new project on Github, but this time with a cool, secretive name...
@@ -97,13 +97,13 @@ I had a few minor issues I had to resolve in my app before Apple would fully acc
 <img src="/assets/gmme/gmme_accepted.png" alt="treehouse">
 
 <div class="iframe-wrapper">
-    <iframe src="https://giphy.com/embed/NbgeJftsErO5q" width="480" height="380" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/funny-star-trek-mind-blown-NbgeJftsErO5q"></a></p>
-    <span class="iframe-text">Finally seeing Gmme in the app store felt like...</span>
+    <iframe src="https://giphy.com/embed/2muNmHavM1jeU" width="480" height="378" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/star-trek-shocked-shock-2muNmHavM1jeU"></a></p>
+    <span class="iframe-text">Finally seeing Gmme in the app store...</span>
 </div>
 
 <img src="/assets/gmme/app_store_photo.png" alt="treehouse">
 
-<b>Gmme</b>, was on the app store! It was such an incredible feeling to see an idea that was once a few scribbled lines on a piece of loose leaf turn into a real life, working app. Building this app taught me a taught me so much, from expanding my understanding of React Native to finding tools to help create, icons, app store photos, and landing pages, and the entire apple app store deployment process. It's been an incredibly challening and fun journey, and I'm excited to continue building out new features and improving it any way I can.
+<b>Gmme</b>, was on the app store! It was such an incredible feeling to see an idea that was, two years ago, a few scribbled lines on a piece of loose leaf turn into a real life, working app. Building <b>Gmme</b> taught me a taught me so much, from expanding my understanding of React Native, learning several new libraries, nuances with the app store deployment process, and various tools for creating icons, app store photos, landing pages, and more. It's been an incredibly challenging and fun journey, and I'm excited to continue building out new features and improving it any way I can.
 
 <h4 class="blog-header">Now Comes The Hard Part</h4>
 
