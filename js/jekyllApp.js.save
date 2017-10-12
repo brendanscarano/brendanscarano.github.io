@@ -5,30 +5,6 @@
 
     this.jobs = [
       {
-        title: 'Gmme',
-        type: 'project',
-        companyName: 'iOS App',
-        companyImg: '/assets/gmme.png',
-        dates: 'September 2017',
-        description: [
-          'You want the photos on your friend\'s Camera Roll, but they keep forgetting to send them to you. Gmme is the simple way for you to finally get them.',
-          'Gmme provides an easy way to select a friend and the dates of their Camera Roll you want.',
-          'Once a request is sent, your friend can choose which photos they want to send, and within a minute have them sent to your device.'
-        ]
-      },
-      {
-        title: 'Goodbye Contacts',
-        type: 'project',
-        companyName: 'iOS App',
-        companyImg: '/assets/goodbye_contacts.png',
-        dates: 'May 2017',
-        description: [
-          'Goodbye Contacts is the funnest, and easiest way to get rid of those unused, unwanted contacts you haven\'t spoken to in who knows how long!',
-          'Each one of your contacts will come up, one at a time, on your screen. Swipe right if you still like this contact and want to save them. Swipe left to add them a pile of contacts to be deleted.',
-          'Once you\'re satisfied with all the contacts you want to delete, click the final Delete button, for one last review, and finally get rid of them for good.'
-        ]
-      },
-      {
         type: 'work',
         companyName: 'Jet.com',
         companyImg: '/assets/jet.png',
