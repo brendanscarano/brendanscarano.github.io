@@ -136,6 +136,10 @@
     background-color: #3C689D !important;
 }
 
+.timeline-badge.project {
+    background-color: #F36262 !important;
+}
+
 .timeline-badge.danger {
     background-color: #d9534f !important;
 }
@@ -221,6 +225,12 @@
 .job-img-wrapper,
 .title-wrapper {
   float: left;
+}
+
+.job-img-wrapper {
+    img {
+        max-width: 80px;
+    }
 }
 
 .title-wrapper {
