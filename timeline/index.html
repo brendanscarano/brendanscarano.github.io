@@ -12,6 +12,10 @@ layout: default
           ng-class="{'timeline-inverted': job.type === 'school'}"
           ng-init="showBody = false">
 
+        <div ng-if="job.type === 'project'" class="timeline-badge project">
+          <i  class="fa fa-keyboard-o"></i>
+        </div>
+
         <div ng-if="job.type === 'work'" class="timeline-badge work">
           <i  class="fa fa-desktop"></i>
         </div>
