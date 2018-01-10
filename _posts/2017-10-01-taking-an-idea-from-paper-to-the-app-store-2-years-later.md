@@ -97,8 +97,11 @@ I had a few minor issues I had to resolve in my app before Apple would fully acc
 <img src="/assets/gmme/gmme_accepted.png" alt="treehouse">
 
 <div class="iframe-wrapper">
-    <iframe src="https://giphy.com/embed/2muNmHavM1jeU" width="480" height="378" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/star-trek-shocked-shock-2muNmHavM1jeU"></a></p>
-    <span class="iframe-text">Finally seeing Gmme in the app store...</span>
+    <iframe src="https://m.popkey.co/622d89/RQ1J_f-maxage-0.gif" width="480" height="auto" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/star-trek-shocked-shock-2muNmHavM1jeU"></a></p>
+</div>
+
+<div class="iframe-wrapper">
+    <iframe src="https://giphy.com/embed/Is1O1TWV0LEJi" width="auto" height="272" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/excited-the-office-celebrate-Is1O1TWV0LEJi"></a></p>
 </div>
 
 <img src="/assets/gmme/app_store_photo.png" alt="treehouse">

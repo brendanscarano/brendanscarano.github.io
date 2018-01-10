@@ -34,12 +34,13 @@
 }
 
 .blog-wrapper {
-  padding-top: 60px;
+  padding-top: 5rem;
   .next-blog-arrows {
-    float: right;
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
     a {
       color: #999;
-      margin-right: 30px;
       &:hover {
         color: #333;
         text-decoration: none;
@@ -120,11 +121,11 @@
     .entry-date {
       font-size: 16px;
       letter-spacing: 3px;
-      margin: 30px 0 0 0;
+      margin: 1rem 0 0 0;
     }
     .entry-title {
       margin-bottom: .75rem;
-      font-weight: 300;
+      font-weight: 700;
     }
     img {
       box-shadow: 5px 5px 5px #888888;
