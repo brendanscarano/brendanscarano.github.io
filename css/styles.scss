@@ -2,16 +2,30 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
-.about-wrapper {
-  padding-top: 60px;
-}
-
 body {
   background: #f7f7f7;
-}
+  max-width: 1060px;
+  margin: 4rem auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  height: 100%;
+  align-items: flex-start;
 
-.container {
-  width: 85%;
+  @media only screen and (max-width: 960px) {
+    flex-direction: column;
+    margin: 1rem auto 0 auto;
+  }
+
+  .main-content {
+    flex: 4;
+    margin-left: 4rem;
+
+    @media only screen and (max-width: 960px) {
+      flex: none;
+      margin-left: 0;
+    }
+  }
 }
 
 .highlight {

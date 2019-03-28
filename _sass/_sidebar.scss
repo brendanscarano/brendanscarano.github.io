@@ -4,30 +4,20 @@
 
 ============================== */
 
-.main-content {
-  margin: 0 0 0 330px;
-}
-
 .sidebar {
-  position: fixed;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
   text-align: center;
-  background: #f7f7f7;
-  height: 20%;
-  width: 330px;
-  // background-image: url('../assets/footer_lodyas.png');
+  background: transparent;
+  position: sticky;
+  top: 4rem;
 
   h1 {
     font-size: 24px;
-    margin-bottom: 2px;
     text-align: right;
     color: #333;
     text-transform: uppercase;
-    font-family: 'Lato';
+    font-family: "Lato";
     font-weight: bold;
-    line-height: 1.0;
+    line-height: 1;
   }
 
   h2 {
@@ -38,8 +28,11 @@
 }
 
 .info-wrapper {
-  margin-top: 25%;
   color: #666;
+
+  > h1 {
+    margin-top: 0;
+  }
 
   img {
     border: 1px solid #999;
@@ -48,7 +41,6 @@
     height: 170px;
   }
 }
-
 
 .profession-list {
   text-align: right;
@@ -77,14 +69,13 @@
         color: #999;
         text-decoration: none;
         &:hover {
-            color: #333;
+          color: #333;
         }
       }
       a.active {
         color: #333;
       }
     }
-
   }
 }
 
@@ -112,11 +103,13 @@
     margin-top: 0;
   }
   .email {
-    i, a {
+    i,
+    a {
       color: #999;
     }
     &:hover {
-      i, a {
+      i,
+      a {
         color: #333;
         text-decoration: none;
       }
@@ -129,26 +122,25 @@
 }
 
 .linkedin {
-  color: #a4bbdb
+  color: #a4bbdb;
 }
 .spotify {
-  color: #7beaa2
+  color: #7beaa2;
 }
 .soundcloud {
   color: #ffbb80;
 }
 
 .github {
- color: #b3b3b3;
+  color: #b3b3b3;
 }
-
 
 .twitter:hover {
   color: #00aced;
 }
 
 .linkedin:hover {
-  color: #4875B4
+  color: #4875b4;
 }
 .spotify:hover {
   color: #1ed760;
@@ -158,7 +150,5 @@
 }
 
 .github:hover {
- color: #2f2f2f;
+  color: #2f2f2f;
 }
-
-
